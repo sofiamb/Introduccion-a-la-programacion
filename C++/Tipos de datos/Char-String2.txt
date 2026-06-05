@@ -1,0 +1,42 @@
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+
+	//                          0   1   2   3 
+	char palabraSeparada[] = { 'c','a','s','a' };
+	string palabra = "casa";
+	
+	string nombreJugador;
+	
+	string textoWin = "Bien, ganaste!!";
+	string textoLose = "Uy, perdiste!";
+
+	string mensajeInicial = "Bienvenido a este mundo! Decime tu numbre:";
+	int numeroIngresado;
+	cout << "\n";
+	
+	
+	cout << mensajeInicial;
+	cin >> nombreJugador;
+	cout << "Bien, " + nombreJugador + ". Vamos a jugar!";
+	cout << "\n";
+
+	cout << "ingresá un numero del 1 al 3. A ver si lo adivinas.";
+	cin >> numeroIngresado;
+
+	//numero verdadero = 2
+	if (numeroIngresado == 2) {
+
+		cout << textoWin +" " + nombreJugador;
+	}
+	else {
+		cout << textoLose + " " + nombreJugador;
+	
+	}
+	
+}

@@ -1,0 +1,18 @@
+// Clase 5 - Simulacro.cpp 
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	//                0    1    2   3   4
+	char notas[] = { 'a' ,'c', 'n','s','e'};
+
+
+	for (int i = 0; i < 5; i++) {
+		cout << notas[i] << "\n";	
+	}
+	
+}

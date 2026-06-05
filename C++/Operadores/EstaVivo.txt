@@ -1,0 +1,53 @@
+
+/*
+
+Saber si un personaje está vivo. 
+- Pedir al usuario que ingrese un número (vida)
+- Si es menor a 1 tiene que false
+- Si es mayor a 0 tiene que ser true
+
+Saber si un personaje tiene un companion
+- Pedir al usuario que indique si tiene un compañero.
+*/
+// Clase 2.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    bool estaVivo;
+    int vida;
+    int numeroIngresado;
+
+    cout << "Ingresá la cantidad de vida que tiene el personaje" << "\n";
+    cin >> numeroIngresado;
+
+    vida = numeroIngresado > 0;//1= vivo 
+
+    cout << "El personaje esta vivo?" << vida<<"\n";
+
+    bool tieneCompaniero;
+    bool valorIngresado;
+
+    cout << "El personaje tiene compañero?" << "\n";
+    cin >> valorIngresado;
+
+    tieneCompaniero = valorIngresado == 1;
+
+    cout << "devolvemos si tiene compañero o no: " <<tieneCompaniero;
+
+
+
+
+
+
+
+
+    
+}
+
+
+

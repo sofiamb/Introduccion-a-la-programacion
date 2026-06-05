@@ -1,0 +1,45 @@
+
+#include <iostream>
+
+int main()
+{
+    //Definicion de variables, Asignaciones de valores 
+    //y Operaciones aritméticas 
+
+    int vida = 1;
+    std::cout << "vida vale: " << vida<<"\n";
+    vida = vida + 1;//Esta es la operación suma!!
+    std::cout << "vida vale: " << vida << "\n";
+    vida = 50;
+    std::cout << "vida vale: " << vida << "\n";
+    vida = vida + 1;
+    std::cout << "vida vale: " << vida << "\n";
+
+
+    int n = 7 - 3;//Esta es la resta.
+    std::cout << "la variable n vale: " << n << "\n";
+    float m = 15.0 + 0.5;
+    std::cout << "la variable m vale: " << m << "\n";
+
+    int x;//la variable se declara una sola vez.
+    x = 3 * 5;
+    std::cout << "la variable x vale: " << x << "\n";
+    int X = 2;
+    std::cout << "la variable X vale: " << X << "\n";
+   // std::cout << "la variable X vale: " << X << "\n";
+
+    float y;
+    y = 5.0 / 2.0;
+    std::cout << "la variable y vale: " << y << "\n";
+
+    int numero = 20;
+
+    int resultado = numero % 2;
+    std::cout << "el resultado es: " << resultado << "\n";
+
+    int otroNumero = 3253;
+
+    int otroResultado = otroNumero % 2;
+    std::cout << "el otroResultado es: " << otroResultado;
+
+}

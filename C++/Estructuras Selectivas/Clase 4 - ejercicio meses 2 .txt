@@ -1,0 +1,73 @@
+// clase 4 
+//
+/*
+Ejercicio 3
+Desarrollar un programa que solicite un número que va a corresponder a un mes del calendario (por ejemplo 4) 
+y escriba el nombre del mes en letras ("abril"). 
+
+
+Verificar que el mes sea válido y mostrar un mensaje de error en caso de que no lo sea.
+
+*/
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int mesIngresado= 0;
+
+	cout << "Ingrese un número que corresponda a un mes del año.";
+	cin >> mesIngresado;
+
+	switch (mesIngresado) {
+		
+		case 1:
+			cout << "El mes es Enero";
+			break;
+		case 2:
+			cout << "El mes es Febrero";
+			break;
+		case 3:
+			cout << "El mes es Marzo";
+			break;
+		case 4:
+			cout << "El mes es Abril";
+			break;
+		case 5:
+			cout << "El mes es Mayo";
+			break;
+		case 6:
+			cout << "El mes es Junio";
+			break;
+		case 7:
+			cout << "El mes es julio";
+			break;
+		case 8:
+			cout << "El mes es Agosto";
+			break;
+		case 9:
+			cout << "El mes es septiembre";
+			break;
+		case 10:
+			cout << "El mes es Octubre";
+			break;
+		case 11:
+			cout << "El mes es Noviembre";
+			break;
+		case 12:
+			cout << "El mes es Diciembre";
+			break;	
+
+		default:
+			cout << "el mes ingresado no es válido";
+		
+	}
+
+
+	
+
+
+
+}

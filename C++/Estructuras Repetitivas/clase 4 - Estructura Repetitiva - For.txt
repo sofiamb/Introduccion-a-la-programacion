@@ -1,0 +1,22 @@
+// clase 4 - For
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int items = 0;
+
+	
+	//Para qué es el for?!
+	for (int i = 0; i <5;i++) {
+		
+		std::cout << "Hello World! "<< i<<"\n";
+		items++;
+		std::cout << "ITEMS: " << items << "\n";
+	}
+
+}
+

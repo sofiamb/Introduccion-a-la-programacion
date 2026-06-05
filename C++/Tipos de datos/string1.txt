@@ -1,0 +1,58 @@
+// Clase 5 - Simulacro.cpp 
+//
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+string txt = "fideos";
+
+	cout << "El largo del string es: " << txt.length()<< "\n";
+	cout << "El largo del string es: " << txt.size() << "\n";
+	string comida;
+	cout << "ingresa una comida:";
+	
+	/*
+	//con estos comandos asigno un valor ingresado a una variable
+		cin >> comida;
+
+		getline(cin, comida);
+	*/
+	cin >> comida;
+
+	//vamos a ver cual es la 1era y la 3era letra
+	//cout << comida[0];//primera
+	//cout << comida[2];
+
+	//quiero buscar las vocales
+	int cantidadVocales = 0;
+	int cantidadComidas = 1;
+
+	for (int i = 0; i < comida.length(); i++) {
+	
+		cout << comida[i];
+		cout << "\n";
+
+		if (comida[i] == 'a') {
+			cout << "encontré una 'a'";
+			cout << "\n";
+			cantidadVocales++;
+
+		}
+
+		if (comida[i] == 'y') {
+			printf("busco si hay una y");
+			cantidadComidas++;
+		}
+	}
+
+	cout << "la cantidad de vocales es: ";
+	cout << cantidadVocales;
+	cout << "\n";
+
+	cout << "cantidad de comidas: ";
+	cout << cantidadComidas;
+}

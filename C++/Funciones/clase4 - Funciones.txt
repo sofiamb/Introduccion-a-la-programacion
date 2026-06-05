@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+// Declaración de la función
+void holaMundo();
+
+// Función principal
+int main() {
+    // Llamada a la función
+    holaMundo();
+    return 0;
+}
+
+// Definición de la función
+void holaMundo() {
+    cout << "Hola Mundo" << endl;
+}

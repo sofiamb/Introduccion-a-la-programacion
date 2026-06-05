@@ -1,0 +1,50 @@
+// Clase 8.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+    // Definimos 3 alumnos y 3 notas para cada uno
+    const int ALUMNOS = 3;
+    const int NOTAS = 3;
+
+    float calificaciones[ALUMNOS][NOTAS] = {
+         {8, 9, 7}, // Notas de Ana --- 0
+         {6, 7, 8}, // Notas de Luis ---- 1
+         {9, 10, 9} // Notas de Marta ---- 2
+    };
+
+  /*  for (int i = 0; i < ALUMNOS; i++) {
+        cout << "El alumno es: " << i;
+        cout << "\n";
+        cout<< calificaciones[i][0]; // 8
+        cout << "\n";
+      
+    }*/
+
+    for (int i = 0; i < NOTAS; i++) {//Array de alumnos
+        for (int j = 0; j < ALUMNOS; j++) { //array de notas
+
+           // cout << i;
+            cout << " - ";
+            
+            cout << calificaciones[i][j]; 
+            cout << "\n";
+        }    
+
+
+    }
+    //---------- Alumno --- notas
+    calificaciones[0][0] = 10;
+    calificaciones[0][1] = 9;
+    calificaciones[0][2] = 8;
+
+
+
+
+
+}

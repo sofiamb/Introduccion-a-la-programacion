@@ -1,0 +1,48 @@
+
+	// Clase 5 - Simulacro.cpp 
+//
+/*
+
+10) Usted debe desarrollar un sistema que solicite el ingreso del ID del jugador (numérico)
+y puntaje obtenido (numérico) para 10 jugadores.
+Debe guardar la información en dos arrays diferentes (uno para el ID del jugador y otro para el puntaje).
+
+En caso de que el puntaje ingresado sea menor a 1, debe solicitarlo nuevamente.
+
+Luego debe imprimir un listado de IDs y puntajes.
+
+
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	int calificaciones[] = { 4, 6, 8, 1, 9 };
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << calificaciones[i];
+	}
+	cout << "\n";
+
+	int index = 0;
+
+	do {
+		cout << calificaciones[index];
+		index++;
+	} while (index < 5);
+
+	cout << "\n";
+	//cout << "cuanto vale index?: " << index<<"\n";
+
+	int index2 = 0;
+
+	while (index2 < 5) {
+		cout << calificaciones[index2];
+		index2++;
+	}
+
+
+}

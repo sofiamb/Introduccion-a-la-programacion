@@ -1,0 +1,31 @@
+// Clase 5 - Simulacro.cpp 
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	//              0  1  2  3  4
+	int notas[] = { 15,60,50,10,20 };
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << "i vale ahora: " << i << "  - " << notas[i];
+		cout << ", \n";
+
+		//cuando termina de hacer esto a i se le suma 1 por el ++ o +1
+	}
+
+	cout << notas[0] << "\n";
+	cout << notas[1] << "\n";
+	cout << notas[2] << "\n";
+	cout << notas[3] << "\n";
+	cout << notas[4] << "\n";
+
+	//esto da error porque no existe el index 5 
+	//ya que los espacios del array se empeizan a llamar/ contar 
+	// desde 0
+	cout << notas[5] << "\n";
+}

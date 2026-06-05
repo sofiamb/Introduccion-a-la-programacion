@@ -1,0 +1,15 @@
+
+#include <iostream>
+
+int main()
+{
+    int edad;
+
+    std::cout << "Por favor, ingrese una edad"<<"\n";
+
+    std::cin >> edad;
+
+    std::cout << "La edad es: " << edad;
+
+    
+}

@@ -1,0 +1,23 @@
+// Clase 2.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+
+#include <iostream>
+
+int main()
+{
+    int peras = 80;
+    int manzanas = 12;
+
+    bool hayMasPeras;//   true/false - 1 /0
+    hayMasPeras = peras > manzanas;
+
+
+    std::cout << "hay mas peras ? " << hayMasPeras<<"\n";
+    
+    bool hayMasmanzanas;
+
+    hayMasmanzanas = peras < manzanas;
+
+    std::cout << "hay mas Manzanas ? " << hayMasmanzanas << "\n";
+    
+}

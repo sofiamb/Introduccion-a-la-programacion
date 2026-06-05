@@ -1,0 +1,22 @@
+// Clase 8.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int valorIncrementado(int _value) {// int - float - bool
+	_value++;
+	return _value;
+}
+
+
+int main()
+{
+	int n = 1;
+	int numero = valorIncrementado(n); 
+
+	cout << "numero vale: " << numero<<"\n";
+
+
+}

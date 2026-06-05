@@ -1,0 +1,34 @@
+// clase 4 - Estructura Selectiva o Condicional - Ventanas
+//
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	//std::cout << "Hello World!\n";
+	int ventanas = 0;//0
+
+	int ventanasNecesitadas = 20;
+
+	int valorIngresado;
+
+	cout << "Cuantas ventanas conseguiste: ";
+	cin >> valorIngresado; //21 ingresado por el usuario
+
+	ventanas = valorIngresado;//21 ingresado por el usuario
+
+	//   0       >=    20
+	if (ventanas >= ventanasNecesitadas) {//es una pregunta
+		cout << "tenemos todas las ventanas!!!";
+
+	}
+	else {
+	
+		cout << "Faltan ventanas";
+	}
+
+
+
+}

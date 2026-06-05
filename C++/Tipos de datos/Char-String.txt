@@ -1,0 +1,29 @@
+// Clase 5 - Simulacro.cpp 
+//
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+
+	//                          0   1   2   3 
+	char palabraSeparada[] = { 'c','a','s','a' };
+	string palabra = "casa";
+	string nombreJugador;
+	string textoWin = "Bien, ganaste!!";
+
+
+	for (int i = 0; i < 4; i++)
+	{
+		cout << palabraSeparada[i];//= 0,1,2,3
+		
+
+	
+	}
+	cout << "\n";
+	cout << palabra;
+	
+}

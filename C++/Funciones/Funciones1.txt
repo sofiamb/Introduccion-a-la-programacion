@@ -1,0 +1,47 @@
+// Clase 5 - Simulacro.cpp 
+//
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+void sumar() {//numerica
+	int numeroLocal = 10;
+	int resultado = numeroLocal + 20;
+	cout<<resultado;
+
+}
+
+void saludar() {//vacía. No necesita devolver nada.
+	cout << "Hola";
+	cout << "\n";
+}
+
+void mostrarMenu() {
+
+	cout << "acá va estar el menú de inicio";
+	
+}
+int main()
+{
+	int numeroGlobal = 0;
+	saludar();
+	int res = sumar();
+	//cout << "la suma es:";
+	//cout << num;
+	//cout << res;
+	
+
+	switch (numeroGlobal) {
+		case 0:
+			cout << "cero";
+			break;
+		case 1:
+			cout << "uno";
+			break;
+	}
+
+
+}

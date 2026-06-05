@@ -1,0 +1,31 @@
+// clase 4 - Operadores de incremento y decremento
+
+// clase 4 - Operadores de incremento y decremento
+
+//
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int items = 0;
+
+	int monedas = 2;
+	std::cout << "ITEMS: " << items << "\n";
+
+	items = items + monedas;
+	std::cout << "ITEMS: " << items << "\n";
+	
+	items++;
+	std::cout << "ITEMS: " << items << "\n";
+
+	//items--; // -1
+
+	items = items - 1;
+	std::cout << "ITEMS: " << items << "\n";
+
+
+}
+

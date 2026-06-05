@@ -1,0 +1,37 @@
+// Clase 8.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int vida = 5;
+int danioA = 1;
+int danioB = 2;
+int danioC = 3;
+
+
+void restarVida(int _AlgunDanio) {// argumento
+
+	vida -= _AlgunDanio;
+	cout << "Hizo " << _AlgunDanio << " de daño" << "\n";
+	cout << "La vida Actual es: " << vida << "\n";
+}
+
+void restarValorFijoVida() {
+	vida--;
+	cout << "La vida Actual es: " << vida << "\n";
+}
+
+int main()
+{
+
+	cout << "La vida del jugador es: " << vida << "\n";
+
+//	restarVida(danioC);//parámetro
+	restarValorFijoVida(); //no lleva parámetro porque no tiene Argumento.
+	restarValorFijoVida(); //no lleva parámetro porque no tiene Argumento.
+	restarValorFijoVida(); //no lleva parámetro porque no tiene Argumento.
+
+
+}

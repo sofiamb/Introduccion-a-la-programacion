@@ -1,0 +1,41 @@
+// Clase 5 - Simulacro.cpp 
+//
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+
+	/*string Jugador1 = "andrea";
+	string Jugador2 = "jose";
+
+	if (Jugador1 == Jugador2) {
+		cout << "Son iguales";
+
+	}
+	else {
+		cout << "no son iguales";
+	}
+	cout << "\n";
+	printf("word_a > word_b: %i \n", Jugador1 == Jugador2); // Falso
+	*/
+	/*
+	printf("word_a < word_b: %i \n", word_a < word_b); // Verdadero
+	printf("word_c == word_b: %i \n", word_c == word_b); // Verdadero
+	printf("word_c < word_d: %i \n", word_c < word_d); // Verdadero
+	*/
+
+	string str = "The long and winding road.";
+	cout << str.length();
+	cout << "\n";
+	int letraIndice = str.find('a');//numero, posicion de la letra
+		
+	int final = str.length();
+	string str2 = str.substr(letraIndice, final);//a partir de la letra escribe el texto hasta el final.
+	cout << str2;
+	
+
+}

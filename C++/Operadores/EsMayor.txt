@@ -1,0 +1,28 @@
+
+
+
+
+
+
+- Pedir al usuario que ingrese un número
+- Si es mayor de 18 tiene que mostrar true (1)
+- Si es menor de 18 tiene que mostrar false (0)
+
+#include <iostream>
+
+int main()
+{
+    int numero;
+    bool esMayor18;
+
+    std::cout << "Por favor, ingrese un número" <<"\n";
+    std::cin >> numero;
+
+    esMayor18 = numero > 18;
+
+    std::cout << "el numero es mayor a 18? " << esMayor18;
+
+
+
+    
+}

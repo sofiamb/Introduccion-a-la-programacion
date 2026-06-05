@@ -1,0 +1,56 @@
+// Clase 5 - Simulacro.cpp 
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+
+	int notasCuatrimestreAnterior[] = { 10,8 };
+
+	int notasPepeCuatrimestreActual[2];
+	int notasLauraCuatrimestreActual[2];
+		
+	cout << "Notas del cuatrimestre anterior: \n";
+	for (int i = 0; i < 2; i++) {
+		cout << notasCuatrimestreAnterior[i] << "\n";
+
+	}
+	//Notas de pepe
+	cout << "Ingrese la primer nota de Pepe del cuatrimestre actual \n";
+	cin >> notasPepeCuatrimestreActual[0];
+
+	cout << "Ingrese la segunda nota de Pepe del cuatrimestre actual \n";
+	cin >> notasPepeCuatrimestreActual[1];
+
+	//Ingreso de notas de Laura
+	cout << "Ingrese la primer nota de Laura del cuatrimestre actual \n";
+	cin >> notasLauraCuatrimestreActual[0];
+
+	cout << "Ingrese la segunda nota de Laura del cuatrimestre actual \n";
+	cin >> notasLauraCuatrimestreActual[1];
+
+
+	cout << "Notas del cuatrimestre actual de pepe: \n";
+	
+	for (int i = 0; i < 2; i++) {
+	
+		cout << notasPepeCuatrimestreActual[i]<<"\n";
+	
+	}
+
+	cout << "Notas del cuatrimestre actual de Laura: \n";
+
+	for (int i = 0; i < 2; i++) {
+		cout << notasLauraCuatrimestreActual[i]<<"\n";
+	
+	}
+
+
+
+	
+
+	
+}

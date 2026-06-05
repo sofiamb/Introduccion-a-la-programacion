@@ -1,0 +1,57 @@
+// clase 4: Ejemplo ventanas
+//
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int ventanasBlancas = 10;
+	int ventanasNegras = 5;
+	int ventanasRojas = 5;
+
+	cout << "Seleccione el color de la ventana: 1 = blanca, 2 = Negras, 3 = Rojas";
+
+	int seleccionVentana;
+	cin >> seleccionVentana;
+
+
+	//elijo un tipo de elemento o dato que necesito. estructura selectiva. 
+	switch (seleccionVentana) {
+
+	case 1:
+		cout << "Seleccionaste la ventana blanca\n";
+		break;
+	case 2:
+		cout << "seleccionaste la ventana negra\n";
+		break;
+	case 3:
+		cout << "seleccionaste la ventana roja\n";
+		break;
+	default:
+		cout << "No hay ventanas de ese color disponible\n";
+
+
+	}
+
+	cout << "cuantas ventanas quiere?";
+	int cantidadSeleccionada;
+	cin >> cantidadSeleccionada;
+	cout << "solicitaste " << cantidadSeleccionada << " ventanas\n";
+
+
+	//elijo si es verdadero o falso. estructura selectiva
+	if (ventanasNegras >= cantidadSeleccionada) {
+		cout << "SI hay ventanas disponibles";
+	}
+	else {
+		cout << "NO hay ventanas disponibles";
+	}
+
+
+
+
+
+
+}
